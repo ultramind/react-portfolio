@@ -7,6 +7,7 @@ import Contact from './components/contact/Contact';
 import Service from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonial from './components/testimonials/Testimonials'
+import Experience from './components/experience/Experience';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Nav/>
       <About/>
+      <Experience/>
       <Service/>
       <Portfolio/>
       <Service/>

@@ -19,6 +19,7 @@ function Nav() {
     <nav>
       <a onClick={()=>{setActiveNav("#")}} href='#' className={activeNav === "#"?"active" : ""}><AiOutlineHome/></a>
       <a onClick={()=>{setActiveNav("#about")}} href='#about'className={activeNav === "#about"?"active" : ""}><AiOutlineUser/></a>
+      <a onClick={()=>{setActiveNav("#experience")}} href='#experience' className={activeNav === "#experience"?"active" : ""}><RiServiceLine/></a>
       <a onClick={()=>{setActiveNav("#services")}} href='#services' className={activeNav === "#services"?"active" : ""}><RiServiceLine/></a>
       <a onClick={()=>{setActiveNav("#portfolio")}} href='#portfolio' className={activeNav === "#portfolio"?"active" : ""}><BiBookBookmark/></a>
       <a onClick={()=>{setActiveNav("#contact")}} href='#contact' className={activeNav === "#contact"?"active" : ""}><MdPermContactCalendar/></a>
